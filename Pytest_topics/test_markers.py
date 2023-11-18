@@ -14,7 +14,7 @@ def test_case01():
 
 
 @pytest.mark.rectangle
-@pytest.mark.xfail
+@pytest.mark.xfail(raises=AssertionError, reason='known issue')
 def test_case02():
     rect2 = Rectangle(4, 5)
     assert rect2.calculate_rectangle_area() == 15, \
