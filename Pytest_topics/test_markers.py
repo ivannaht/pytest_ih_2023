@@ -14,6 +14,7 @@ def test_case01():
 
 
 @pytest.mark.rectangle
+@pytest.mark.xfail
 def test_case02():
     rect2 = Rectangle(4, 5)
     assert rect2.calculate_rectangle_area() == 15, \
@@ -28,6 +29,7 @@ def test_case03():
 
 
 @pytest.mark.rectangle
+@pytest.mark.xfail
 def test_case04():
     rect4 = Rectangle(2, 5)
     assert rect4.calculate_rectangle_perimeter() == 10, \
@@ -44,6 +46,7 @@ def test_case05():
 
 
 @pytest.mark.circle
+@pytest.mark.xfail
 def test_case06():
     cir2 = Circle(5)
     assert cir2.calculate_circle_area() == 15, \
@@ -58,6 +61,7 @@ def test_case07():
 
 
 @pytest.mark.circle
+@pytest.mark.xfail
 def test_case08():
     cir4 = Circle(11)
     assert cir4.calculate_circle_perimeter() == 70, \
