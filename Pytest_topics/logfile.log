@@ -13,3 +13,8 @@
 2023-12-26 13:48:14,437: WARNING: Pytest_topics.test_logging: logger.warning
 2023-12-26 13:48:14,438: ERROR: Pytest_topics.test_logging: logger.error
 2023-12-26 13:48:14,438: CRITICAL: Pytest_topics.test_logging: logger.critical
+2023-12-26 15:43:15,417: INFO: Pytest_topics.base: Logged in as username: user1, first_name: First, last_name: Last
+2023-12-26 15:43:15,420: INFO: Pytest_topics.base: Logged in as username: user1, first_name: First, last_name: Last
+2023-12-26 15:43:15,420: INFO: Pytest_topics.base: Logged in as username: user1, first_name: First, last_name: Last
+2023-12-26 15:45:46,472: INFO: test_case01: Logged in as username: user1, first_name: First, last_name: Last
+2023-12-26 15:45:46,476: INFO: test_case02: Logged in as username: user1, first_name: First, last_name: Last
