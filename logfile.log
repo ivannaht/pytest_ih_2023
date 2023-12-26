@@ -1,0 +1,7 @@
+2023-12-26 15:46:48,099: INFO: test_case01: Logged in as username: user1, first_name: First, last_name: Last
+2023-12-26 15:46:48,103: INFO: test_case02: Logged in as username: user1, first_name: First, last_name: Last
+2023-12-26 15:46:48,105: DEBUG: Pytest_topics.test_logging: logger.debug
+2023-12-26 15:46:48,105: INFO: Pytest_topics.test_logging: logger.info
+2023-12-26 15:46:48,105: WARNING: Pytest_topics.test_logging: logger.warning
+2023-12-26 15:46:48,105: ERROR: Pytest_topics.test_logging: logger.error
+2023-12-26 15:46:48,105: CRITICAL: Pytest_topics.test_logging: logger.critical
