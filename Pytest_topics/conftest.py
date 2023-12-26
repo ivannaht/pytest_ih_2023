@@ -13,3 +13,8 @@ def setup():
 def user_data():
     user1 = User("user1", "First", "Last")
     return f"Logged in as {user1.show_user()}"
+
+
+@pytest.fixture(scope="module", params=["Chrome", "Safari"])
+def cross_browser(request):
+    return request.param
