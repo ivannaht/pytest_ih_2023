@@ -1,0 +1,15 @@
+2023-12-26 13:47:45,266: DEBUG: Pytest_topics.test_logging: logger.debug
+2023-12-26 13:47:45,285: INFO: Pytest_topics.test_logging: logger.info
+2023-12-26 13:47:45,285: WARNING: Pytest_topics.test_logging: logger.warning
+2023-12-26 13:47:45,285: ERROR: Pytest_topics.test_logging: logger.error
+2023-12-26 13:47:45,285: CRITICAL: Pytest_topics.test_logging: logger.critical
+2023-12-26 13:48:05,973: DEBUG: Pytest_topics.test_logging: logger.debug
+2023-12-26 13:48:05,973: INFO: Pytest_topics.test_logging: logger.info
+2023-12-26 13:48:05,973: WARNING: Pytest_topics.test_logging: logger.warning
+2023-12-26 13:48:05,973: ERROR: Pytest_topics.test_logging: logger.error
+2023-12-26 13:48:05,973: CRITICAL: Pytest_topics.test_logging: logger.critical
+2023-12-26 13:48:14,437: DEBUG: Pytest_topics.test_logging: logger.debug
+2023-12-26 13:48:14,437: INFO: Pytest_topics.test_logging: logger.info
+2023-12-26 13:48:14,437: WARNING: Pytest_topics.test_logging: logger.warning
+2023-12-26 13:48:14,438: ERROR: Pytest_topics.test_logging: logger.error
+2023-12-26 13:48:14,438: CRITICAL: Pytest_topics.test_logging: logger.critical
