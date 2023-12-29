@@ -1,6 +1,12 @@
 import openpyxl
+from pathlib import Path
 
-book = openpyxl.load_workbook("/Users/ihont/repos/pytest_ih_2023/assets/users.xlsx")
+excel_file = "users.xlsx"
+directory = "assets"
+base_dir = Path(__file__).resolve().parent.parent
+data_file = base_dir.joinpath(directory).joinpath(excel_file)
+
+book = openpyxl.load_workbook(data_file)
 sheet = book.active
 
 
