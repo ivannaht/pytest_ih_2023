@@ -1,3 +1,6 @@
+from Pytest_topics.users_excel import get_users
+
+
 class User:
 
     def __init__(self, username, first_name, last_name):
@@ -11,3 +14,7 @@ class User:
 
 user1 = User("sadmin", "Super", "Admin")
 print(user1.show_user())
+
+user_excel = get_users()[1]
+user2 = User(user_excel['username'], user_excel['first_name'], user_excel['last_name'])
+print(user2.show_user())
