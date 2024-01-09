@@ -82,10 +82,3 @@ def test_is_isogram(input_value, output_value):
     """verify is_isogram function"""
     assert is_isogram(input_value) == output_value
 
-
-data_7 = [
-    (),
-    (),
-    ()
-]
-
